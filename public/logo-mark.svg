@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#2B6B4F"/>
+  <!-- Abstract anvil: horn/face, waist, base -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M14 13h16l8 4-8 4H14V13zm4 10h12v4H18zm-4 6h20v6H14v-6z" fill="white"/>
+  <!-- Spark -->
+  <circle cx="37" cy="11" r="2" fill="#C48E2A"/>
+</svg>

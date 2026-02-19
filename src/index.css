@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Forge AI brand tokens */
+:root {
+  --forge-brand: 43 107 79;
+  --forge-brand-light: 56 137 106;
+  --forge-accent-terracotta: 192 89 58;
+  --forge-accent-amber: 196 142 42;
+  --forge-accent-sage: 107 143 113;
+  --forge-accent-copper: 161 107 63;
+}
+
+[data-theme="dark"] {
+  --forge-brand: 90 173 130;
+  --forge-brand-light: 136 197 166;
+}
+
+/* AG Grid Forge Theme — compound selector beats .ag-theme-quartz specificity */
+.ag-theme-quartz.ag-theme-forge {
+  /* Surfaces — Medusa bg tokens */
+  --ag-background-color: var(--bg-base);
+  --ag-header-background-color: var(--bg-base);
+  --ag-odd-row-background-color: transparent;
+  --ag-row-hover-color: var(--bg-base-hover);
+  --ag-modal-overlay-background-color: var(--bg-base);
+  --ag-control-panel-background-color: var(--bg-base);
+  --ag-subheader-background-color: var(--bg-base);
+  --ag-invalid-color: var(--fg-error);
+  --ag-input-disabled-background-color: var(--bg-subtle);
+
+  /* Text — Medusa fg tokens */
+  --ag-foreground-color: var(--fg-base);
+  --ag-header-foreground-color: var(--fg-muted);
+  --ag-secondary-foreground-color: var(--fg-muted);
+  --ag-icon-color: var(--fg-muted);
+  --ag-data-color: var(--fg-base);
+
+  /* Borders — Medusa border tokens */
+  --ag-border-color: var(--border-base);
+  --ag-row-border-color: var(--border-base);
+  --ag-row-border-width: 1px;
+  --ag-borders: none;
+
+  /* Brand accent — selection, focus, active */
+  --ag-range-selection-border-color: rgb(var(--forge-brand));
+  --ag-selected-row-background-color: rgb(var(--forge-brand) / 0.06);
+  --ag-checkbox-checked-color: rgb(var(--forge-brand));
+  --ag-input-focus-border-color: rgb(var(--forge-brand));
+  --ag-active-color: rgb(var(--forge-brand));
+
+  /* Sizing & typography */
+  --ag-font-family: "Space Grotesk", system-ui, sans-serif;
+  --ag-font-size: 13px;
+  --ag-row-height: 48px;
+  --ag-header-height: 44px;
+  --ag-grid-size: 6px;
+  --ag-cell-horizontal-padding: 16px;
+  --ag-border-radius: 8px;
+  --ag-wrapper-border-radius: 8px;
+}
+
+.ag-theme-quartz.ag-theme-forge .ag-header {
+  border-bottom: 1px solid var(--border-base);
+}
+
+.ag-theme-quartz.ag-theme-forge .ag-header-cell {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ag-theme-quartz.ag-theme-forge .ag-row {
+  transition: background-color 0.15s ease;
+}
+
+.ag-theme-quartz.ag-theme-forge .ag-cell {
+  display: flex;
+  align-items: center;
+}
+
+/* Animated gradient logo text */
+@keyframes forge-gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.forge-logo-text {
+  background: linear-gradient(135deg, #38896A, #5AAD82, #C48E2A, #38896A);
+  background-size: 300% 300%;
+  animation: forge-gradient-shift 6s ease infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Tooltip z-index — render above sticky header (z-20) and sidebar (z-30) */
+[data-radix-popper-content-wrapper] {
+  z-index: 50 !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--forge-brand) / 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--forge-brand) / 0.4);
+}
