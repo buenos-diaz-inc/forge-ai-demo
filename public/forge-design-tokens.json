@@ -1,0 +1,2593 @@
+{
+  "themes": [
+    {
+      "id": 1,
+      "name": "light",
+      "displayName": "Light",
+      "isDefault": true,
+      "position": 0
+    },
+    {
+      "id": 2,
+      "name": "dark",
+      "displayName": "Dark",
+      "isDefault": false,
+      "position": 1
+    }
+  ],
+  "tokens": [
+    {
+      "id": 1,
+      "name": "0",
+      "path": "spacing/0",
+      "$type": "dimension",
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 1,
+        "themeId": null,
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        },
+        "rawValue": "0px"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 2,
+      "name": "1",
+      "path": "spacing/1",
+      "$type": "dimension",
+      "$value": {
+        "value": 0.25,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 2,
+        "themeId": null,
+        "$value": {
+          "value": 0.25,
+          "unit": "rem"
+        },
+        "rawValue": "0.25rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 3,
+      "name": "2",
+      "path": "spacing/2",
+      "$type": "dimension",
+      "$value": {
+        "value": 0.5,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 3,
+        "themeId": null,
+        "$value": {
+          "value": 0.5,
+          "unit": "rem"
+        },
+        "rawValue": "0.5rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 4,
+      "name": "3",
+      "path": "spacing/3",
+      "$type": "dimension",
+      "$value": {
+        "value": 0.75,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 4,
+        "themeId": null,
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        },
+        "rawValue": "0.75rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 5,
+      "name": "4",
+      "path": "spacing/4",
+      "$type": "dimension",
+      "$value": {
+        "value": 1,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 5,
+        "themeId": null,
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        },
+        "rawValue": "1rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 6,
+      "name": "5",
+      "path": "spacing/5",
+      "$type": "dimension",
+      "$value": {
+        "value": 1.25,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 6,
+        "themeId": null,
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        },
+        "rawValue": "1.25rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 7,
+      "name": "6",
+      "path": "spacing/6",
+      "$type": "dimension",
+      "$value": {
+        "value": 1.5,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 7,
+        "themeId": null,
+        "$value": {
+          "value": 1.5,
+          "unit": "rem"
+        },
+        "rawValue": "1.5rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 8,
+      "name": "7",
+      "path": "spacing/7",
+      "$type": "dimension",
+      "$value": {
+        "value": 1.75,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 8,
+        "themeId": null,
+        "$value": {
+          "value": 1.75,
+          "unit": "rem"
+        },
+        "rawValue": "1.75rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 9,
+      "name": "8",
+      "path": "spacing/8",
+      "$type": "dimension",
+      "$value": {
+        "value": 2,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 9,
+        "themeId": null,
+        "$value": {
+          "value": 2,
+          "unit": "rem"
+        },
+        "rawValue": "2rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 10,
+      "name": "9",
+      "path": "spacing/9",
+      "$type": "dimension",
+      "$value": {
+        "value": 2.25,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 10,
+        "themeId": null,
+        "$value": {
+          "value": 2.25,
+          "unit": "rem"
+        },
+        "rawValue": "2.25rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 11,
+      "name": "10",
+      "path": "spacing/10",
+      "$type": "dimension",
+      "$value": {
+        "value": 2.5,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 11,
+        "themeId": null,
+        "$value": {
+          "value": 2.5,
+          "unit": "rem"
+        },
+        "rawValue": "2.5rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 12,
+      "name": "11",
+      "path": "spacing/11",
+      "$type": "dimension",
+      "$value": {
+        "value": 2.75,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 12,
+        "themeId": null,
+        "$value": {
+          "value": 2.75,
+          "unit": "rem"
+        },
+        "rawValue": "2.75rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 13,
+      "name": "12",
+      "path": "spacing/12",
+      "$type": "dimension",
+      "$value": {
+        "value": 3,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 13,
+        "themeId": null,
+        "$value": {
+          "value": 3,
+          "unit": "rem"
+        },
+        "rawValue": "3rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 14,
+      "name": "14",
+      "path": "spacing/14",
+      "$type": "dimension",
+      "$value": {
+        "value": 3.5,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 14,
+        "themeId": null,
+        "$value": {
+          "value": 3.5,
+          "unit": "rem"
+        },
+        "rawValue": "3.5rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 15,
+      "name": "16",
+      "path": "spacing/16",
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 15,
+        "themeId": null,
+        "$value": {
+          "value": 4,
+          "unit": "rem"
+        },
+        "rawValue": "4rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 16,
+      "name": "20",
+      "path": "spacing/20",
+      "$type": "dimension",
+      "$value": {
+        "value": 5,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 16,
+        "themeId": null,
+        "$value": {
+          "value": 5,
+          "unit": "rem"
+        },
+        "rawValue": "5rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 17,
+      "name": "24",
+      "path": "spacing/24",
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 17,
+        "themeId": null,
+        "$value": {
+          "value": 6,
+          "unit": "rem"
+        },
+        "rawValue": "6rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 18,
+      "name": "28",
+      "path": "spacing/28",
+      "$type": "dimension",
+      "$value": {
+        "value": 7,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 18,
+        "themeId": null,
+        "$value": {
+          "value": 7,
+          "unit": "rem"
+        },
+        "rawValue": "7rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 19,
+      "name": "32",
+      "path": "spacing/32",
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 19,
+        "themeId": null,
+        "$value": {
+          "value": 8,
+          "unit": "rem"
+        },
+        "rawValue": "8rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 20,
+      "name": "36",
+      "path": "spacing/36",
+      "$type": "dimension",
+      "$value": {
+        "value": 9,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 20,
+        "themeId": null,
+        "$value": {
+          "value": 9,
+          "unit": "rem"
+        },
+        "rawValue": "9rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 21,
+      "name": "40",
+      "path": "spacing/40",
+      "$type": "dimension",
+      "$value": {
+        "value": 10,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 21,
+        "themeId": null,
+        "$value": {
+          "value": 10,
+          "unit": "rem"
+        },
+        "rawValue": "10rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 22,
+      "name": "44",
+      "path": "spacing/44",
+      "$type": "dimension",
+      "$value": {
+        "value": 11,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 22,
+        "themeId": null,
+        "$value": {
+          "value": 11,
+          "unit": "rem"
+        },
+        "rawValue": "11rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 23,
+      "name": "48",
+      "path": "spacing/48",
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 23,
+        "themeId": null,
+        "$value": {
+          "value": 12,
+          "unit": "rem"
+        },
+        "rawValue": "12rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 24,
+      "name": "52",
+      "path": "spacing/52",
+      "$type": "dimension",
+      "$value": {
+        "value": 13,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 24,
+        "themeId": null,
+        "$value": {
+          "value": 13,
+          "unit": "rem"
+        },
+        "rawValue": "13rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 25,
+      "name": "56",
+      "path": "spacing/56",
+      "$type": "dimension",
+      "$value": {
+        "value": 14,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 25,
+        "themeId": null,
+        "$value": {
+          "value": 14,
+          "unit": "rem"
+        },
+        "rawValue": "14rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 26,
+      "name": "60",
+      "path": "spacing/60",
+      "$type": "dimension",
+      "$value": {
+        "value": 15,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 26,
+        "themeId": null,
+        "$value": {
+          "value": 15,
+          "unit": "rem"
+        },
+        "rawValue": "15rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 27,
+      "name": "64",
+      "path": "spacing/64",
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 27,
+        "themeId": null,
+        "$value": {
+          "value": 16,
+          "unit": "rem"
+        },
+        "rawValue": "16rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 28,
+      "name": "72",
+      "path": "spacing/72",
+      "$type": "dimension",
+      "$value": {
+        "value": 18,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 28,
+        "themeId": null,
+        "$value": {
+          "value": 18,
+          "unit": "rem"
+        },
+        "rawValue": "18rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 29,
+      "name": "80",
+      "path": "spacing/80",
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 29,
+        "themeId": null,
+        "$value": {
+          "value": 20,
+          "unit": "rem"
+        },
+        "rawValue": "20rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 30,
+      "name": "96",
+      "path": "spacing/96",
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 30,
+        "themeId": null,
+        "$value": {
+          "value": 24,
+          "unit": "rem"
+        },
+        "rawValue": "24rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 31,
+      "name": "px",
+      "path": "spacing/px",
+      "$type": "dimension",
+      "$value": {
+        "value": 1,
+        "unit": "px"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 31,
+        "themeId": null,
+        "$value": {
+          "value": 1,
+          "unit": "px"
+        },
+        "rawValue": "1px"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 32,
+      "name": "0.5",
+      "path": "spacing/0.5",
+      "$type": "dimension",
+      "$value": {
+        "value": 0.125,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 32,
+        "themeId": null,
+        "$value": {
+          "value": 0.125,
+          "unit": "rem"
+        },
+        "rawValue": "0.125rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 33,
+      "name": "1.5",
+      "path": "spacing/1.5",
+      "$type": "dimension",
+      "$value": {
+        "value": 0.375,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 33,
+        "themeId": null,
+        "$value": {
+          "value": 0.375,
+          "unit": "rem"
+        },
+        "rawValue": "0.375rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 34,
+      "name": "2.5",
+      "path": "spacing/2.5",
+      "$type": "dimension",
+      "$value": {
+        "value": 0.625,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 34,
+        "themeId": null,
+        "$value": {
+          "value": 0.625,
+          "unit": "rem"
+        },
+        "rawValue": "0.625rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 35,
+      "name": "3.5",
+      "path": "spacing/3.5",
+      "$type": "dimension",
+      "$value": {
+        "value": 0.875,
+        "unit": "rem"
+      },
+      "$description": "Applies to: w, h, size, min-w, max-w, min-h, max-h, p, px, py, pt, pr, pb, pl, ps, pe, m, mx, my, mt, mr, mb, ml, ms, me, gap, gap-x, gap-y, space-x, space-y, inset, inset-x, inset-y, top, right, bottom, left, start, end, basis, scroll-m, scroll-p",
+      "isPrimitive": true,
+      "isAlias": false,
+      "sourceFile": "tailwind.config.ts",
+      "baseValue": {
+        "id": 35,
+        "themeId": null,
+        "$value": {
+          "value": 0.875,
+          "unit": "rem"
+        },
+        "rawValue": "0.875rem"
+      },
+      "themeValues": [],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 36,
+      "name": "forge-brand",
+      "path": "-tailwind-base-tailwind-components-tailwind-utilities-Forge-AI-brand-tokens-root/forge-brand",
+      "$type": "color",
+      "$value": {
+        "value": "#103e290",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 36,
+        "themeId": null,
+        "$value": {
+          "value": "#103e290",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "43 107 79"
+      },
+      "themeValues": [
+        {
+          "id": 37,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "#103e290",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "43 107 79"
+        },
+        {
+          "id": 38,
+          "themeId": 2,
+          "themeName": "dark",
+          "$value": {
+            "value": "#14cc71d0",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "90 173 130"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 37,
+      "name": "forge-brand-light",
+      "path": "-tailwind-base-tailwind-components-tailwind-utilities-Forge-AI-brand-tokens-root/forge-brand-light",
+      "$type": "color",
+      "$value": {
+        "value": "#f9fc123",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 39,
+        "themeId": null,
+        "$value": {
+          "value": "#f9fc123",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "56 137 106"
+      },
+      "themeValues": [
+        {
+          "id": 40,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "#f9fc123",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "56 137 106"
+        },
+        {
+          "id": 41,
+          "themeId": 2,
+          "themeName": "dark",
+          "$value": {
+            "value": "#2f35c242",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "136 197 166"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 38,
+      "name": "forge-accent-terracotta",
+      "path": "-tailwind-base-tailwind-components-tailwind-utilities-Forge-AI-brand-tokens-root/forge-accent-terracotta",
+      "$type": "color",
+      "$value": {
+        "value": "#35cdf3",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 42,
+        "themeId": null,
+        "$value": {
+          "value": "#35cdf3",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "192 89 58"
+      },
+      "themeValues": [
+        {
+          "id": 43,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "#35cdf3",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "192 89 58"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 39,
+      "name": "forge-accent-amber",
+      "path": "-tailwind-base-tailwind-components-tailwind-utilities-Forge-AI-brand-tokens-root/forge-accent-amber",
+      "$type": "color",
+      "$value": {
+        "value": "#-2db2103",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 44,
+        "themeId": null,
+        "$value": {
+          "value": "#-2db2103",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "196 142 42"
+      },
+      "themeValues": [
+        {
+          "id": 45,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "#-2db2103",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "196 142 42"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 40,
+      "name": "forge-accent-sage",
+      "path": "-tailwind-base-tailwind-components-tailwind-utilities-Forge-AI-brand-tokens-root/forge-accent-sage",
+      "$type": "color",
+      "$value": {
+        "value": "#13bf1150",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 46,
+        "themeId": null,
+        "$value": {
+          "value": "#13bf1150",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "107 143 113"
+      },
+      "themeValues": [
+        {
+          "id": 47,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "#13bf1150",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "107 143 113"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 41,
+      "name": "forge-accent-copper",
+      "path": "-tailwind-base-tailwind-components-tailwind-utilities-Forge-AI-brand-tokens-root/forge-accent-copper",
+      "$type": "color",
+      "$value": {
+        "value": "#3c106c6",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 48,
+        "themeId": null,
+        "$value": {
+          "value": "#3c106c6",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "161 107 63"
+      },
+      "themeValues": [
+        {
+          "id": 49,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "#3c106c6",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "161 107 63"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 42,
+      "name": "ag-background-color",
+      "path": "ag-theme-forge/background-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--bg-base)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{bg/base}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 50,
+        "themeId": null,
+        "$value": {
+          "value": "var(--bg-base)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--bg-base)"
+      },
+      "themeValues": [
+        {
+          "id": 51,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--bg-base)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--bg-base)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 43,
+      "name": "ag-header-background-color",
+      "path": "ag-theme-forge/header-background-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--bg-base)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{bg/base}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 52,
+        "themeId": null,
+        "$value": {
+          "value": "var(--bg-base)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--bg-base)"
+      },
+      "themeValues": [
+        {
+          "id": 53,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--bg-base)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--bg-base)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 44,
+      "name": "ag-odd-row-background-color",
+      "path": "ag-theme-forge/odd-row-background-color",
+      "$type": "color",
+      "$value": {
+        "value": "transparent",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 54,
+        "themeId": null,
+        "$value": {
+          "value": "transparent",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "transparent"
+      },
+      "themeValues": [
+        {
+          "id": 55,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "transparent",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "transparent"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 45,
+      "name": "ag-row-hover-color",
+      "path": "ag-theme-forge/row-hover-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--bg-base-hover)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{bg/base/hover}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 56,
+        "themeId": null,
+        "$value": {
+          "value": "var(--bg-base-hover)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--bg-base-hover)"
+      },
+      "themeValues": [
+        {
+          "id": 57,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--bg-base-hover)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--bg-base-hover)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 46,
+      "name": "ag-modal-overlay-background-color",
+      "path": "ag-theme-forge/modal-overlay-background-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--bg-base)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{bg/base}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 58,
+        "themeId": null,
+        "$value": {
+          "value": "var(--bg-base)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--bg-base)"
+      },
+      "themeValues": [
+        {
+          "id": 59,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--bg-base)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--bg-base)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 47,
+      "name": "ag-control-panel-background-color",
+      "path": "ag-theme-forge/control-panel-background-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--bg-base)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{bg/base}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 60,
+        "themeId": null,
+        "$value": {
+          "value": "var(--bg-base)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--bg-base)"
+      },
+      "themeValues": [
+        {
+          "id": 61,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--bg-base)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--bg-base)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 48,
+      "name": "ag-subheader-background-color",
+      "path": "ag-theme-forge/subheader-background-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--bg-base)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{bg/base}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 62,
+        "themeId": null,
+        "$value": {
+          "value": "var(--bg-base)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--bg-base)"
+      },
+      "themeValues": [
+        {
+          "id": 63,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--bg-base)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--bg-base)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 49,
+      "name": "ag-invalid-color",
+      "path": "ag-theme-forge/invalid-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--fg-error)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{fg/error}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 64,
+        "themeId": null,
+        "$value": {
+          "value": "var(--fg-error)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--fg-error)"
+      },
+      "themeValues": [
+        {
+          "id": 65,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--fg-error)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--fg-error)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 50,
+      "name": "ag-input-disabled-background-color",
+      "path": "ag-theme-forge/input-disabled-background-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--bg-subtle)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{bg/subtle}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 66,
+        "themeId": null,
+        "$value": {
+          "value": "var(--bg-subtle)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--bg-subtle)"
+      },
+      "themeValues": [
+        {
+          "id": 67,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--bg-subtle)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--bg-subtle)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 51,
+      "name": "ag-foreground-color",
+      "path": "ag-theme-forge/foreground-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--fg-base)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{fg/base}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 68,
+        "themeId": null,
+        "$value": {
+          "value": "var(--fg-base)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--fg-base)"
+      },
+      "themeValues": [
+        {
+          "id": 69,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--fg-base)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--fg-base)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 52,
+      "name": "ag-header-foreground-color",
+      "path": "ag-theme-forge/header-foreground-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--fg-muted)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{fg/muted}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 70,
+        "themeId": null,
+        "$value": {
+          "value": "var(--fg-muted)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--fg-muted)"
+      },
+      "themeValues": [
+        {
+          "id": 71,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--fg-muted)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--fg-muted)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 53,
+      "name": "ag-secondary-foreground-color",
+      "path": "ag-theme-forge/secondary-foreground-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--fg-muted)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{fg/muted}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 72,
+        "themeId": null,
+        "$value": {
+          "value": "var(--fg-muted)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--fg-muted)"
+      },
+      "themeValues": [
+        {
+          "id": 73,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--fg-muted)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--fg-muted)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 54,
+      "name": "ag-icon-color",
+      "path": "ag-theme-forge/icon-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--fg-muted)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{fg/muted}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 74,
+        "themeId": null,
+        "$value": {
+          "value": "var(--fg-muted)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--fg-muted)"
+      },
+      "themeValues": [
+        {
+          "id": 75,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--fg-muted)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--fg-muted)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 55,
+      "name": "ag-data-color",
+      "path": "ag-theme-forge/data-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--fg-base)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{fg/base}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 76,
+        "themeId": null,
+        "$value": {
+          "value": "var(--fg-base)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--fg-base)"
+      },
+      "themeValues": [
+        {
+          "id": 77,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--fg-base)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--fg-base)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 56,
+      "name": "ag-border-color",
+      "path": "ag-theme-forge/border-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--border-base)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{border/base}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 78,
+        "themeId": null,
+        "$value": {
+          "value": "var(--border-base)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--border-base)"
+      },
+      "themeValues": [
+        {
+          "id": 79,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--border-base)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--border-base)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 57,
+      "name": "ag-row-border-color",
+      "path": "ag-theme-forge/row-border-color",
+      "$type": "color",
+      "$value": {
+        "value": "var(--border-base)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{border/base}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 80,
+        "themeId": null,
+        "$value": {
+          "value": "var(--border-base)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "var(--border-base)"
+      },
+      "themeValues": [
+        {
+          "id": 81,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "var(--border-base)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "var(--border-base)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 58,
+      "name": "ag-row-border-width",
+      "path": "ag-theme-forge/row-border-width",
+      "$type": "dimension",
+      "$value": {
+        "value": 1,
+        "unit": "px"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 82,
+        "themeId": null,
+        "$value": {
+          "value": 1,
+          "unit": "px"
+        },
+        "rawValue": "1px"
+      },
+      "themeValues": [
+        {
+          "id": 83,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": 1,
+            "unit": "px"
+          },
+          "rawValue": "1px"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 59,
+      "name": "ag-borders",
+      "path": "ag-theme-forge/borders",
+      "$type": "color",
+      "$value": {
+        "value": "none",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 84,
+        "themeId": null,
+        "$value": {
+          "value": "none",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "none"
+      },
+      "themeValues": [
+        {
+          "id": 85,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "none",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "none"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 60,
+      "name": "ag-range-selection-border-color",
+      "path": "ag-theme-forge/range-selection-border-color",
+      "$type": "color",
+      "$value": {
+        "value": "rgb(var(--forge-brand))",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{forge/brand}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 86,
+        "themeId": null,
+        "$value": {
+          "value": "rgb(var(--forge-brand))",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "rgb(var(--forge-brand))"
+      },
+      "themeValues": [
+        {
+          "id": 87,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "rgb(var(--forge-brand))",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "rgb(var(--forge-brand))"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 61,
+      "name": "ag-selected-row-background-color",
+      "path": "ag-theme-forge/selected-row-background-color",
+      "$type": "color",
+      "$value": {
+        "value": "rgb(var(--forge-brand) / 0.06)",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{forge/brand}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 88,
+        "themeId": null,
+        "$value": {
+          "value": "rgb(var(--forge-brand) / 0.06)",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "rgb(var(--forge-brand) / 0.06)"
+      },
+      "themeValues": [
+        {
+          "id": 89,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "rgb(var(--forge-brand) / 0.06)",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "rgb(var(--forge-brand) / 0.06)"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 62,
+      "name": "ag-checkbox-checked-color",
+      "path": "ag-theme-forge/checkbox-checked-color",
+      "$type": "color",
+      "$value": {
+        "value": "rgb(var(--forge-brand))",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{forge/brand}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 90,
+        "themeId": null,
+        "$value": {
+          "value": "rgb(var(--forge-brand))",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "rgb(var(--forge-brand))"
+      },
+      "themeValues": [
+        {
+          "id": 91,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "rgb(var(--forge-brand))",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "rgb(var(--forge-brand))"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 63,
+      "name": "ag-input-focus-border-color",
+      "path": "ag-theme-forge/input-focus-border-color",
+      "$type": "color",
+      "$value": {
+        "value": "rgb(var(--forge-brand))",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{forge/brand}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 92,
+        "themeId": null,
+        "$value": {
+          "value": "rgb(var(--forge-brand))",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "rgb(var(--forge-brand))"
+      },
+      "themeValues": [
+        {
+          "id": 93,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "rgb(var(--forge-brand))",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "rgb(var(--forge-brand))"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 64,
+      "name": "ag-active-color",
+      "path": "ag-theme-forge/active-color",
+      "$type": "color",
+      "$value": {
+        "value": "rgb(var(--forge-brand))",
+        "colorSpace": "srgb"
+      },
+      "isPrimitive": false,
+      "isAlias": true,
+      "aliasPath": "{forge/brand}",
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 94,
+        "themeId": null,
+        "$value": {
+          "value": "rgb(var(--forge-brand))",
+          "colorSpace": "srgb"
+        },
+        "rawValue": "rgb(var(--forge-brand))"
+      },
+      "themeValues": [
+        {
+          "id": 95,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": "rgb(var(--forge-brand))",
+            "colorSpace": "srgb"
+          },
+          "rawValue": "rgb(var(--forge-brand))"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 65,
+      "name": "ag-font-family",
+      "path": "ag-theme-forge/font-family",
+      "$type": "fontFamily",
+      "$value": [
+        "Space Grotesk",
+        "system-ui",
+        "sans-serif"
+      ],
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 96,
+        "themeId": null,
+        "$value": [
+          "Space Grotesk",
+          "system-ui",
+          "sans-serif"
+        ],
+        "rawValue": "\"Space Grotesk\", system-ui, sans-serif"
+      },
+      "themeValues": [
+        {
+          "id": 97,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": [
+            "Space Grotesk",
+            "system-ui",
+            "sans-serif"
+          ],
+          "rawValue": "\"Space Grotesk\", system-ui, sans-serif"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 66,
+      "name": "ag-font-size",
+      "path": "ag-theme-forge/font-size",
+      "$type": "dimension",
+      "$value": {
+        "value": 13,
+        "unit": "px"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 98,
+        "themeId": null,
+        "$value": {
+          "value": 13,
+          "unit": "px"
+        },
+        "rawValue": "13px"
+      },
+      "themeValues": [
+        {
+          "id": 99,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": 13,
+            "unit": "px"
+          },
+          "rawValue": "13px"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 67,
+      "name": "ag-row-height",
+      "path": "ag-theme-forge/row-height",
+      "$type": "dimension",
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 100,
+        "themeId": null,
+        "$value": {
+          "value": 48,
+          "unit": "px"
+        },
+        "rawValue": "48px"
+      },
+      "themeValues": [
+        {
+          "id": 101,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": 48,
+            "unit": "px"
+          },
+          "rawValue": "48px"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 68,
+      "name": "ag-header-height",
+      "path": "ag-theme-forge/header-height",
+      "$type": "dimension",
+      "$value": {
+        "value": 44,
+        "unit": "px"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 102,
+        "themeId": null,
+        "$value": {
+          "value": 44,
+          "unit": "px"
+        },
+        "rawValue": "44px"
+      },
+      "themeValues": [
+        {
+          "id": 103,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": 44,
+            "unit": "px"
+          },
+          "rawValue": "44px"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 69,
+      "name": "ag-grid-size",
+      "path": "ag-theme-forge/grid-size",
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 104,
+        "themeId": null,
+        "$value": {
+          "value": 6,
+          "unit": "px"
+        },
+        "rawValue": "6px"
+      },
+      "themeValues": [
+        {
+          "id": 105,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": 6,
+            "unit": "px"
+          },
+          "rawValue": "6px"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 70,
+      "name": "ag-cell-horizontal-padding",
+      "path": "ag-theme-forge/cell-horizontal-padding",
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 106,
+        "themeId": null,
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "rawValue": "16px"
+      },
+      "themeValues": [
+        {
+          "id": 107,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          },
+          "rawValue": "16px"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 71,
+      "name": "ag-border-radius",
+      "path": "ag-theme-forge/border-radius",
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 108,
+        "themeId": null,
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        },
+        "rawValue": "8px"
+      },
+      "themeValues": [
+        {
+          "id": 109,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": 8,
+            "unit": "px"
+          },
+          "rawValue": "8px"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    },
+    {
+      "id": 72,
+      "name": "ag-wrapper-border-radius",
+      "path": "ag-theme-forge/wrapper-border-radius",
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "isPrimitive": false,
+      "isAlias": false,
+      "sourceFile": "src/index.css",
+      "baseValue": {
+        "id": 110,
+        "themeId": null,
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        },
+        "rawValue": "8px"
+      },
+      "themeValues": [
+        {
+          "id": 111,
+          "themeId": 1,
+          "themeName": "light",
+          "$value": {
+            "value": 8,
+            "unit": "px"
+          },
+          "rawValue": "8px"
+        }
+      ],
+      "references": [],
+      "referencedBy": [],
+      "workspaceId": 1,
+      "usageCount": 0,
+      "createdAt": "2026-02-25T19:13:38.194Z",
+      "updatedAt": "2026-02-25T19:13:38.194Z"
+    }
+  ]
+}

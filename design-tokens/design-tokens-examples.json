@@ -1,0 +1,536 @@
+{
+  "$description": "W3C DTCG Compliant Design Tokens - Maximum Complexity Examples",
+  "$extensions": {
+    "ai.soffi.fileFormat": {
+      "extension": ".tokens.json",
+      "mediaType": "application/design-tokens+json"
+    },
+    "ai.soffi.themes": [
+      { "id": 1, "name": "light", "displayName": "Light", "isDefault": true, "position": 0 },
+      { "id": 2, "name": "dark", "displayName": "Dark", "isDefault": false, "position": 1 }
+    ]
+  },
+
+  "primitives": {
+    "$description": "Base primitive tokens",
+
+    "colors": {
+      "$type": "color",
+      "$description": "Color primitives with color space",
+
+      "primary": {
+        "500": {
+          "$value": { "value": "#3b82f6", "colorSpace": "srgb" },
+          "$description": "Primary brand color",
+          "$extensions": {
+            "ai.soffi.id": 1,
+            "ai.soffi.usageCount": 47
+          }
+        },
+        "400": {
+          "$value": { "value": "#60a5fa", "colorSpace": "srgb" }
+        },
+        "300": {
+          "$value": { "value": "#93c5fd", "colorSpace": "srgb" }
+        }
+      },
+
+      "aurora": {
+        "$description": "Aurora gradient color palette",
+        "red": { "$value": { "value": "#ff6b6b", "colorSpace": "srgb" } },
+        "yellow": { "$value": { "value": "#feca57", "colorSpace": "srgb" } },
+        "cyan": { "$value": { "value": "#48dbfb", "colorSpace": "srgb" } },
+        "pink": { "$value": { "value": "#ff9ff3", "colorSpace": "srgb" } },
+        "blue": { "$value": { "value": "#54a0ff", "colorSpace": "srgb" } }
+      },
+
+      "shadow": {
+        "subtle": { "$value": { "value": "rgba(0, 0, 0, 0.05)", "colorSpace": "srgb" } },
+        "medium": { "$value": { "value": "rgba(0, 0, 0, 0.1)", "colorSpace": "srgb" } },
+        "strong": { "$value": { "value": "rgba(0, 0, 0, 0.15)", "colorSpace": "srgb" } }
+      }
+    },
+
+    "spacing": {
+      "$type": "dimension",
+      "$description": "Spacing scale",
+
+      "0": { "$value": { "value": 0, "unit": "px" } },
+      "1": { "$value": { "value": 0.25, "unit": "rem" } },
+      "2": { "$value": { "value": 0.5, "unit": "rem" } },
+      "4": { "$value": { "value": 1, "unit": "rem" } },
+      "6": { "$value": { "value": 1.5, "unit": "rem" } },
+      "8": { "$value": { "value": 2, "unit": "rem" } }
+    },
+
+    "duration": {
+      "$type": "duration",
+      "$description": "Animation durations",
+
+      "micro": { "$value": { "value": 50, "unit": "ms" } },
+      "fast": { "$value": { "value": 150, "unit": "ms" } },
+      "normal": { "$value": { "value": 300, "unit": "ms" } },
+      "slow": { "$value": { "value": 500, "unit": "ms" } }
+    },
+
+    "easing": {
+      "$type": "cubicBezier",
+      "$description": "Easing curves",
+
+      "linear": { "$value": [0, 0, 1, 1] },
+      "ease-in": { "$value": [0.4, 0, 1, 1] },
+      "ease-out": { "$value": [0, 0, 0.2, 1] },
+      "ease-in-out": { "$value": [0.4, 0, 0.2, 1] },
+      "spring": {
+        "$value": [0.34, 1.56, 0.64, 1],
+        "$description": "Bouncy spring easing"
+      }
+    },
+
+    "font": {
+      "family": {
+        "$type": "fontFamily",
+        "sans": {
+          "$value": ["Instrument Sans", "system-ui", "sans-serif"],
+          "$description": "Primary sans-serif font stack"
+        },
+        "mono": {
+          "$value": ["JetBrains Mono", "Consolas", "monospace"]
+        }
+      },
+
+      "weight": {
+        "$type": "fontWeight",
+        "regular": { "$value": 400 },
+        "medium": { "$value": 500 },
+        "semibold": { "$value": 600 },
+        "bold": { "$value": 700 }
+      },
+
+      "leading": {
+        "$type": "dimension",
+        "$description": "Line heights",
+        "4": { "$value": { "value": 16, "unit": "px" } },
+        "5": { "$value": { "value": 20, "unit": "px" } },
+        "6": { "$value": { "value": 24, "unit": "px" } },
+        "7": { "$value": { "value": 28, "unit": "px" } }
+      },
+
+      "tracking": {
+        "$type": "dimension",
+        "$description": "Letter spacing",
+        "tight": { "$value": { "value": -0.025, "unit": "em" } },
+        "normal": { "$value": { "value": 0, "unit": "em" } },
+        "wider": { "$value": { "value": 0.8, "unit": "px" } }
+      }
+    },
+
+    "radius": {
+      "$type": "dimension",
+      "$description": "Border radius values (separate from border per W3C spec)",
+      "none": { "$value": { "value": 0, "unit": "px" } },
+      "sm": { "$value": { "value": 4, "unit": "px" } },
+      "md": { "$value": { "value": 8, "unit": "px" } },
+      "lg": { "$value": { "value": 16, "unit": "px" } },
+      "full": { "$value": { "value": 9999, "unit": "px" } }
+    },
+
+    "border-width": {
+      "$type": "dimension",
+      "thin": { "$value": { "value": 1, "unit": "px" } },
+      "medium": { "$value": { "value": 2, "unit": "px" } },
+      "thick": { "$value": { "value": 4, "unit": "px" } }
+    }
+  },
+
+  "semantic": {
+    "$description": "Semantic tokens that reference primitives",
+
+    "typography": {
+      "$type": "typography",
+      "$description": "Typography compositions",
+
+      "complex-header": {
+        "$value": {
+          "fontFamily": "{primitives/font/family/sans}",
+          "fontSize": { "value": 15, "unit": "px" },
+          "fontWeight": 593,
+          "lineHeight": {
+            "$value": "{primitives/font/leading/6}",
+            "$resolved": { "value": 24, "unit": "px" }
+          },
+          "letterSpacing": {
+            "$value": "{primitives/font/tracking/wider}",
+            "$resolved": { "value": 0.8, "unit": "px" }
+          },
+          "fontStyle": "normal",
+          "fontVariantNumeric": "lining-nums proportional-nums ordinal",
+          "fontFeatureSettings": "'ss01' on, 'sups' on",
+          "fontVariantLigatures": "common-ligatures contextual",
+          "fontVariantCaps": "small-caps",
+          "textDecorationLine": "underline",
+          "textDecorationStyle": "solid",
+          "textDecorationColor": "{primitives/colors/primary/500}",
+          "textDecorationSkipInk": "auto",
+          "textDecorationThickness": { "value": 2, "unit": "px" },
+          "textUnderlineOffset": { "value": 3, "unit": "px" },
+          "textUnderlinePosition": "from-font",
+          "textTransform": "capitalize",
+          "textAlign": "justify",
+          "textIndent": "{primitives/spacing/4}",
+          "wordSpacing": { "value": 0.1, "unit": "em" },
+          "paragraphSpacing": { "value": 1.5, "unit": "em" }
+        },
+        "$description": "Complex header with OpenType features and text decorations",
+        "$extensions": {
+          "ai.soffi.id": 100,
+          "ai.soffi.themeValues": [
+            {
+              "themeId": 2,
+              "themeName": "dark",
+              "$value": {
+                "textDecorationColor": "{primitives/colors/primary/300}"
+              }
+            }
+          ]
+        }
+      }
+    },
+
+    "shadows": {
+      "$type": "shadow",
+      "$description": "Shadow compositions",
+
+      "elevation-high": {
+        "$value": [
+          {
+            "offsetX": { "value": 0, "unit": "px" },
+            "offsetY": {
+              "$value": "{primitives/spacing/1}",
+              "$resolved": { "value": 1, "unit": "px" }
+            },
+            "blur": { "value": 2, "unit": "px" },
+            "spread": { "value": 0, "unit": "px" },
+            "color": "{primitives/colors/shadow/subtle}",
+            "inset": false
+          },
+          {
+            "offsetX": { "value": 0, "unit": "px" },
+            "offsetY": { "value": 4, "unit": "px" },
+            "blur": { "value": 8, "unit": "px" },
+            "spread": { "value": -2, "unit": "px" },
+            "color": "{primitives/colors/shadow/medium}"
+          },
+          {
+            "offsetX": { "value": 0, "unit": "px" },
+            "offsetY": { "value": 16, "unit": "px" },
+            "blur": { "value": 32, "unit": "px" },
+            "spread": { "value": -8, "unit": "px" },
+            "color": "{primitives/colors/shadow/strong}"
+          }
+        ],
+        "$description": "High elevation shadow with 3 layers",
+        "$extensions": {
+          "ai.soffi.id": 200,
+          "ai.soffi.themeValues": [
+            {
+              "themeId": 2,
+              "themeName": "dark",
+              "$value": [
+                {
+                  "color": { "value": "rgba(0, 0, 0, 0.2)", "colorSpace": "srgb" }
+                }
+              ]
+            }
+          ]
+        }
+      },
+
+      "inset-ring": {
+        "$value": {
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 0, "unit": "px" },
+          "blur": { "value": 0, "unit": "px" },
+          "spread": "{primitives/border-width/medium}",
+          "color": "{primitives/colors/primary/500}",
+          "inset": true
+        },
+        "$description": "Inset ring shadow (inset is @extension)"
+      }
+    },
+
+    "gradients": {
+      "$type": "gradient",
+
+      "aurora": {
+        "$value": {
+          "stops": [
+            { "color": "{primitives/colors/aurora/red}", "position": 0 },
+            { "color": "{primitives/colors/aurora/yellow}", "position": 0.25 },
+            { "color": "{primitives/colors/aurora/cyan}", "position": 0.5 },
+            { "color": "{primitives/colors/aurora/pink}", "position": 0.75 },
+            { "color": "{primitives/colors/aurora/blue}", "position": 1 }
+          ],
+          "type": "linear",
+          "angle": 135
+        },
+        "$description": "Aurora gradient with 5 stops (type/angle are @extension)"
+      },
+
+      "spotlight": {
+        "$value": {
+          "stops": [
+            { "color": { "value": "rgba(255, 255, 255, 0.8)", "colorSpace": "srgb" }, "position": 0 },
+            { "color": { "value": "rgba(255, 255, 255, 0.2)", "colorSpace": "srgb" }, "position": 0.4 },
+            { "color": { "value": "transparent", "colorSpace": "srgb" }, "position": 0.7 }
+          ],
+          "type": "radial",
+          "shape": "ellipse",
+          "size": "farthest-corner",
+          "position": "25% 25%"
+        },
+        "$description": "Radial spotlight (shape/size/position are @extension)"
+      }
+    },
+
+    "borders": {
+      "$type": "border",
+      "$description": "Border compositions (radius is separate per W3C spec)",
+
+      "input-focus": {
+        "$value": {
+          "width": "{primitives/border-width/medium}",
+          "style": "solid",
+          "color": "{primitives/colors/primary/500}"
+        },
+        "$extensions": {
+          "ai.soffi.id": 400,
+          "ai.soffi.themeValues": [
+            {
+              "themeId": 2,
+              "themeName": "dark",
+              "$value": {
+                "color": "{primitives/colors/primary/400}"
+              }
+            }
+          ]
+        }
+      }
+    },
+
+    "transitions": {
+      "$type": "transition",
+
+      "bounce": {
+        "$value": {
+          "duration": "{primitives/duration/fast}",
+          "delay": "{primitives/duration/micro}",
+          "timingFunction": "{primitives/easing/spring}",
+          "property": "all"
+        },
+        "$description": "Bouncy transition (property is @extension)"
+      }
+    }
+  },
+
+  "extended": {
+    "$description": "Extended types not in W3C DTCG spec - use $extensions when exporting",
+    "$extensions": {
+      "ai.soffi.note": "These types should be in $extensions for strict DTCG compliance"
+    },
+
+    "filters": {
+      "$type": "filter",
+
+      "backdrop-glass": {
+        "$value": {
+          "backdrop": true,
+          "effects": [
+            { "function": "blur", "value": { "value": 16, "unit": "px" } },
+            { "function": "saturate", "value": "180%" },
+            { "function": "brightness", "value": 1.05 }
+          ]
+        },
+        "$description": "Glassmorphism backdrop effect",
+        "$extensions": {
+          "ai.soffi.themeValues": [
+            {
+              "themeId": 2,
+              "themeName": "dark",
+              "$value": {
+                "effects": [
+                  { "function": "blur", "value": { "value": 16, "unit": "px" } },
+                  { "function": "saturate", "value": "180%" },
+                  { "function": "brightness", "value": 0.95 }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      "glow": {
+        "$value": {
+          "backdrop": false,
+          "effects": [
+            { "function": "drop-shadow", "value": "0 0 10px #3b82f6" },
+            { "function": "brightness", "value": 1.1 }
+          ]
+        }
+      }
+    },
+
+    "transforms": {
+      "$type": "transform",
+
+      "card-hover": {
+        "$value": {
+          "origin": "center center",
+          "effects": [
+            { "function": "translateY", "value": { "value": -8, "unit": "px" } },
+            { "function": "scale", "value": 1.02 },
+            { "function": "rotate", "value": "-1deg" }
+          ]
+        },
+        "$description": "Card hover transform with lift and scale"
+      },
+
+      "flip-card": {
+        "$value": {
+          "origin": "center center",
+          "effects": [
+            { "function": "perspective", "value": { "value": 1000, "unit": "px" } },
+            { "function": "rotateY", "value": "180deg" },
+            { "function": "translateZ", "value": { "value": 50, "unit": "px" } }
+          ]
+        },
+        "$description": "3D flip card transform"
+      }
+    },
+
+    "animations": {
+      "$type": "animation",
+
+      "bounce-in": {
+        "$value": {
+          "name": "bounce-in",
+          "duration": {
+            "$value": "{primitives/duration/normal}",
+            "$resolved": { "value": 300, "unit": "ms" }
+          },
+          "timingFunction": "{primitives/easing/spring}",
+          "delay": "{primitives/duration/micro}",
+          "iterationCount": 1,
+          "direction": "normal",
+          "fillMode": "forwards",
+          "playState": "running",
+          "keyframes": [
+            {
+              "offset": 0,
+              "properties": {
+                "opacity": 0,
+                "transform": "translateY(20px) scale(0.9)"
+              },
+              "easing": "{primitives/easing/ease-out}"
+            },
+            {
+              "offset": 0.6,
+              "properties": {
+                "opacity": 1,
+                "transform": "translateY(-5px) scale(1.02)"
+              },
+              "easing": "{primitives/easing/ease-in-out}"
+            },
+            {
+              "offset": 0.8,
+              "properties": {
+                "transform": "translateY(2px) scale(0.99)"
+              }
+            },
+            {
+              "offset": 1,
+              "properties": {
+                "opacity": 1,
+                "transform": "translateY(0) scale(1)"
+              }
+            }
+          ]
+        },
+        "$description": "Bounce-in entrance animation with overshoot"
+      },
+
+      "pulse-glow": {
+        "$value": {
+          "name": "pulse-glow",
+          "duration": { "value": 2, "unit": "s" },
+          "timingFunction": [0.4, 0, 0.2, 1],
+          "iterationCount": "infinite",
+          "direction": "alternate",
+          "fillMode": "none",
+          "keyframes": [
+            {
+              "offset": 0,
+              "properties": {
+                "boxShadow": "0 0 5px rgba(59, 130, 246, 0.3)",
+                "opacity": 0.9
+              }
+            },
+            {
+              "offset": 1,
+              "properties": {
+                "boxShadow": "0 0 20px rgba(59, 130, 246, 0.8)",
+                "opacity": 1
+              }
+            }
+          ]
+        },
+        "$description": "Infinite pulsing glow effect"
+      }
+    }
+  },
+
+  "deprecated-examples": {
+    "$deprecated": "This entire group is deprecated",
+    "$description": "Examples of deprecated tokens",
+
+    "old-shadow": {
+      "$type": "shadow",
+      "$value": {
+        "offsetX": { "value": 0, "unit": "px" },
+        "offsetY": { "value": 4, "unit": "px" },
+        "blur": { "value": 6, "unit": "px" },
+        "spread": { "value": 0, "unit": "px" },
+        "color": { "value": "rgba(0,0,0,0.1)", "colorSpace": "srgb" }
+      },
+      "$deprecated": "Use {semantic/shadows/elevation-high} instead. Will be removed in v2.0"
+    }
+  },
+
+  "inheritance-example": {
+    "$description": "Example of $extends group inheritance",
+    "$type": "color",
+
+    "base-palette": {
+      "brand": { "$value": { "value": "#3b82f6", "colorSpace": "srgb" } },
+      "accent": { "$value": { "value": "#f59e0b", "colorSpace": "srgb" } }
+    },
+
+    "dark-palette": {
+      "$extends": "inheritance-example/base-palette",
+      "$description": "Inherits from base-palette, overrides brand",
+      "brand": { "$value": { "value": "#60a5fa", "colorSpace": "srgb" } }
+    }
+  },
+
+  "json-pointer-example": {
+    "$description": "Example using $ref JSON Pointer (RFC 6901)",
+
+    "primary-color-reference": {
+      "$type": "color",
+      "$value": {
+        "$ref": "#/primitives/colors/primary/500/$value",
+        "$resolved": { "value": "#3b82f6", "colorSpace": "srgb" }
+      }
+    }
+  }
+}
