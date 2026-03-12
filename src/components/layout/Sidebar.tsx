@@ -11,6 +11,7 @@ const navItems = [
   { label: "Experiments", path: "/experiments" },
   { label: "Deployments", path: "/deployments" },
   { label: "Settings", path: "/settings" },
+  { label: "Design Tokens", path: "/design-tokens" },
 ];
 
 export function Sidebar() {
