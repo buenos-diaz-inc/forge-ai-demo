@@ -10,6 +10,7 @@ const navItems = [
   { label: "Datasets", path: "/datasets" },
   { label: "Experiments", path: "/experiments" },
   { label: "Deployments", path: "/deployments" },
+  { label: "Monitoring", path: "/monitoring" },
   { label: "Settings", path: "/settings" },
   { label: "Design Tokens", path: "/design-tokens" },
 ];
