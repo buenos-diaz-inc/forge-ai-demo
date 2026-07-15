@@ -9,6 +9,7 @@ import { ExperimentsPage } from "@/features/experiments/ExperimentsPage";
 import { ExperimentDetailPage } from "@/features/experiments/ExperimentDetailPage";
 import { DeploymentsPage } from "@/features/deployments/DeploymentsPage";
 import { DeploymentDetailPage } from "@/features/deployments/DeploymentDetailPage";
+import { MonitoringPage } from "@/features/monitoring/MonitoringPage";
 import { SettingsPage } from "@/features/settings/SettingsPage";
 import { DesignTokensPage } from "@/features/design-tokens/DesignTokensPage";
 
@@ -26,6 +27,7 @@ export const router = createBrowserRouter([
       { path: "experiments/:experimentId", element: <ExperimentDetailPage /> },
       { path: "deployments", element: <DeploymentsPage /> },
       { path: "deployments/:deploymentId", element: <DeploymentDetailPage /> },
+      { path: "monitoring", element: <MonitoringPage /> },
       { path: "settings", element: <SettingsPage /> },
       { path: "design-tokens", element: <DesignTokensPage /> },
     ],
